@@ -1,6 +1,6 @@
 FROM alpine:latest
 
-ENV FRP_VERSION 0.42.0
+ENV FRP_VERSION 0.41.0
 
 # Setup FRP
 RUN wget https://github.com/fatedier/frp/releases/download/v${FRP_VERSION}/frp_${FRP_VERSION}_linux_amd64.tar.gz \

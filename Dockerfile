@@ -1,10 +1,6 @@
-FROM alpine
+FROM alpine:latest
 
-RUN apk add --update tzdata
-
-# https://www.gnu.org/software/libc/manual/html_node/TZ-Variable.html
-ENV TZ=Asia/Taipei
-ENV FRP_VERSION 0.43.0
+ENV FRP_VERSION 0.42.0
 
 # Setup FRP
 RUN wget https://github.com/fatedier/frp/releases/download/v${FRP_VERSION}/frp_${FRP_VERSION}_linux_amd64.tar.gz \

@@ -28,4 +28,4 @@ jobs:
           docker_build_args: |
             FRP_VERSION
         env:
-          FRP_VERSION: ${{ github.event.inputs.frp_version || "0.43.0" }}
+          FRP_VERSION: ${{ github.event.inputs.frp_version || '0.43.0' }}

@@ -6,6 +6,12 @@
     "frp",
     "reverse_proxy"
   ],
+  "env": {
+    "FRP_VERSION": {
+      "description": "frp version",
+      "value": "0.43.0"
+    }
+  },
   "repository": "https://github.com/daviddwlee84/FRP-Heroku",
   "stack": "container"
 }
